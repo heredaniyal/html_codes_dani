@@ -1,0 +1,38 @@
+h1 , label { /* main heading color is white and label also white */
+  color:white;
+}
+
+a { /* selecting all a elements */
+  text-decoration:none;
+  color:black; /*good color*/
+    margin-left: 100px;
+}
+
+a:visited {
+ color:black;
+}
+
+a:hover {
+color:violet;
+}
+
+a:focus {
+  color:yellow;
+  background-color:brown;
+  outline:lightblue;
+}
+
+a:active{
+  color:lightblue;
+}
+
+.todo-list{
+  margin: 0;
+  padding: 0;
+}
+
+body { /* for a stunning background image */
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&h=1080&fit=crop");
+}
+
+
