@@ -1,0 +1,39 @@
+.blog-post-card{
+  background-color:white; /* mera dil light blue ka tha lekin chalo*/
+   border: 10px solid lightblue;
+  border-radius:5px; /*for rounded corners*/
+  width:400px;
+  text-align:center;
+  margin-left: 420px;
+  margin-top:50px;
+}
+
+/*using this we are styling the image*/
+.post-img{
+  width: 100%;
+  border-bottom:2px solid red;
+}
+
+.post-content { /*?*/
+  padding:10px;
+}
+
+.post-title{
+ color:darkblue;
+}
+
+.post-excerpt{
+ color:orange;  
+}
+
+.read-more{
+   color:white;
+   background-color:black;
+   border-radius:5px;
+   margin:1px;
+   padding:1px;
+   display:inline-block;
+}
+
+.read-more:hover {background-color: green }
+
